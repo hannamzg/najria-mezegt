@@ -1,0 +1,832 @@
+/*333d29
+414833
+656d4a
+a4ac86
+c2c5aa
+a68a64
+7f4f24
+582f0e*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.theborder{
+    border: #262626 solid 1px;
+    margin-top: 2px;
+    background-color: #262626;
+    transform-origin: 100% 50%;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: scale(0);
+}
+
+.nav-item:hover .theborder{
+    transform: scale(1);
+}
+
+
+
+.just-color{
+    background: linear-gradient(240deg,#a68a64,#a4ac86,#a68a64);    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header{
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgb(#7f4f24);
+    border-bottom: dashed rgb(119, 117, 117) 1px;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 60px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+}
+
+.nav-branding:hover{
+    box-shadow: 0 0px 18px 13px white;
+    background-color: white;
+} 
+
+.nav-link{
+    transition: 0.7s;
+    text-decoration: none;
+    color: #edede9 ;
+    font-size: 18px;
+}
+
+.nav-link:hover  {
+    color: black;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.iconsintheheder{
+    display: none;
+}
+
+.nav-item button{
+    padding: 5px;
+    width: 120px;
+    background-color: #7f5539;
+    border-radius: 10px;
+}
+
+.nav-item button:hover{
+    color: white;
+}
+
+
+
+
+.backgrondimg{
+    background-image: url(תמונות/תמונת\ רקע.jpg);
+    width: 100%;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: brightness(80%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 93%);
+    
+    
+}
+.themaxwight{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.backgrondimg h1{
+    background-color: rgba(0,0,8, 0.02);
+    text-align: center;
+    width: fit-content;
+    color: white;
+    font-size: 60px;
+    padding: 20px 0;
+}
+
+.backgrondimg h3{
+    background-color: rgba(0,0,8, 0.02);
+    width: fit-content;
+    color: rgb(246, 244, 244);
+    font-size: 30px;
+    margin-block-end: 20px;
+    margin-block-start: 20px;
+}
+
+
+
+
+.button-contact{
+    padding: 8px;
+    background-color: #a4ac86;
+    border-radius: 10px;
+    width: 190px;
+    max-width: 1000px;
+}
+.button-contact a{
+    font-size: 25px;
+    
+}
+
+.qwlte{
+    max-width: 1000px ;
+    margin: 0 auto;
+}
+
+.qwlte h1{
+   padding-block-start: 20px;
+   padding-block-end: 20px;
+}
+
+
+.qwlte h1 span{
+    color: red;
+}
+
+
+.qwlte p{
+    font-size: 25px;
+}
+
+.qwlte ul li{
+    display: flex;
+}
+
+.qwlte ul li img{
+    margin: 30px;
+}
+
+.qwlte ul li h4{
+    padding-block-start: 40px;
+    font-size: 20px;
+}
+
+
+.just-color2{
+    width: 100%;
+    background: linear-gradient(240deg,#a68a64,#a4ac86);  
+}
+
+.icons{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icons div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons div img{
+    margin: 20px auto;
+}
+
+.icons div h4{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icons div h2{
+    text-align: center;
+    padding-block-start: 20px;
+    font-size: 80px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.titelofmenu{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.titelofmenu h1{
+    color: #262626;
+    font-size: 39px;
+    padding-block-start: 20px;
+    padding-block-end: 20px ;
+}
+
+.titelofmenu h3{
+    color: #a4ac86;
+    font-size: 25px;
+    padding-block-start: 10px;
+    padding-block-end: 10px ;
+}
+
+.menuphoto{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+.menuphoto1{
+    background: url(תמונות/menuphoto\ 1.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.menuphoto2{
+    background: url(תמונות/menuphoto2.webp);
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.menuphoto3{
+    background: url(תמונות/menuphoto3.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.inlineblock{
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+    background-color:rgb(0, 0, 8,0.80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleX(1);
+}
+
+.menuphoto1:hover .inlineblock{
+    transition: 0.5S;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scaleX(0);
+}
+
+.menuphoto1 a{
+    text-decoration: none;
+}
+
+.menuphoto2 a{
+    text-decoration: none;
+}
+
+.menuphoto3 a{
+    text-decoration: none;
+}
+
+
+.menuphoto1 .inlineblock h1{
+    color: white;
+}
+
+.menuphoto2 .inlineblock h1{
+    color: white;
+    text-decoration: none;
+}
+.menuphoto3 .inlineblock h1{
+    color: white;
+}
+
+.menuphoto2:hover .inlineblock{
+    transition: 0.5S;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scaleX(0);
+}
+
+
+.menuphoto3:hover .inlineblock{
+    transition: 0.5S;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scaleX(0);
+}
+
+.justcolorcontact{
+    background-color: rgb(241, 246, 250);
+}
+
+.menuofcontact{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(241, 246, 250);
+    max-width: 1000px;
+}
+
+.menuofcontact h1{
+    font-size: 40px;
+    color: #7f4f24;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.menuofcontact h4{
+    font-size: 20px;
+    color: #a4ac86;
+    padding-bottom: 20px;
+}
+
+
+.contact{
+    margin: 0 auto;
+    background-color: rgb(241, 246, 250);
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact1{
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+
+.contact1 h1{
+    color: #2b2a2a;
+    /* margin: 20px 10px; */
+    margin-block-end: 20px;
+    margin-block-start: 20px;
+    margin-inline-start: 10px;
+    margin-inline-end: 20px;
+    text-align: center;
+}
+
+.photocontact{
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photocontact img{
+    display: flex;
+    /* margin: 20px 50px; */
+    margin-block-end: 20px;
+    margin-block-start: 20px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+}
+
+.photocontact a{
+    text-decoration: none;
+    color: #2b2a2a;
+}
+
+.photocontactdes{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photocontact a div h3{
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.contact2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.contact2 form input{
+    /* margin: 10px 80px; */
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.inputsumbit{
+    background-color: #7f4f24;
+    color: white;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact2 h3{
+    font-size: 25px;
+    margin: 20px 80px;
+}
+
+textarea{
+    /* margin: 20px 80px; */
+    margin-block-end: 20px;
+    margin-block-start: 20px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1008px){
+
+    .iconsintheheder{
+        display: block;
+    }
+
+    .hamburger{
+            display: block;
+           
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background: linear-gradient(240deg,#a68a64,#a4ac86,#a68a64);    
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+    .backgrondimg{
+        background-image: url(תמונות/תמונת\ רקע.jpg);
+        width: 100%;
+        min-height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    .themaxwight{
+        
+        margin: auto;
+    }
+    
+    .backgrondimg h1{
+        background-color: rgba(0,0,8, 0.02);
+        text-align: center;
+        width: fit-content;
+        color: white;
+        font-size: 2rem;
+        padding-right: 30px;
+    }
+
+    .backgrondimg h3{
+        background-color: rgba(0,0,8, 0.02);
+        
+        width: fit-content;
+        color: rgb(246, 244, 244);
+        font-size: 1.3rem;
+        padding-right: 30px;
+    }
+
+
+    .button-contact{
+        background-color: #a4ac86;
+        border-radius: 10px;
+        width: 145px;
+         margin: 0px 30px;
+    }
+
+    .button-contact a{
+        font-size: 1rem;
+    }
+
+    .qwlte h1{
+        margin: 30px;
+        font-size: 25px;
+    }
+
+
+    .qwlte h1 span{
+        color: red;
+    }
+
+
+    .qwlte p{
+        margin: 30px;
+        font-size: 20px;
+    }
+
+    .titelofmenu{
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .titelofmenu h1{
+        color: #262626;
+        font-size: 29px;
+        
+    }
+
+    .titelofmenu h3{
+        color: #a4ac86;
+        font-size: 19px;
+    }
+
+
+
+    .menuphoto{
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 50px;
+        row-gap: 20px;
+    }
+
+    .menuphoto1{
+        background-position: center center;
+        background-size: cover;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+
+    .menuphoto2{
+        background: url(תמונות/menuphoto2.webp);
+        background-position: center center;
+        background-size: cover;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .menuphoto3{
+        background: url(תמונות/menuphoto3.jpg);
+        background-position: center center;
+        background-size: cover;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .inlineblock{
+        width: 150px;
+        height: 120px;
+        background-color:rgb(0, 0, 8,0.80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scaleX(1);
+    }
+
+    .menuphoto1:hover .inlineblock{
+        transition: 0.5S;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: scaleX(0);
+        
+
+    }
+
+
+    .menuphoto1 .inlineblock h1{
+        color: white;
+    }
+
+    .menuphoto2 .inlineblock h1{
+        color: white;
+    }
+    .menuphoto3 .inlineblock h1{
+        color: white;
+    }
+
+    .menuphoto2:hover .inlineblock{
+        transition: 0.5S;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: scaleX(0);
+        
+
+    }
+
+    .menuphoto3:hover .inlineblock{
+        transition: 0.5S;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: scaleX(0);
+        
+
+    }
+
+
+    .justcolorcontact{
+        background-color: rgb(241, 246, 250);
+    }
+
+    .menuofcontact{
+        margin: 0 auto;
+        text-align: center;
+        background-color: rgb(241, 246, 250);
+        max-width: 1000px;
+    }
+
+    .menuofcontact h1{
+        font-size: 40px;
+        color: #7f4f24;
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+
+    .menuofcontact h4{
+        font-size: 20px;
+        color: #a4ac86;
+        padding-bottom: 20px;
+    }
+
+    .contact{
+        margin: 0 auto;
+        background-color: rgb(241, 246, 250);
+        max-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact1{
+        display: flex;
+        flex-basis: 50%;
+        flex-direction: column;
+    }
+
+    .contact1 h1{
+        display: flex;
+        align-items: center;
+        color: #2b2a2a;
+        margin: 20px 10px;
+
+    }
+
+
+    .photocontact{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .photocontact img{
+        margin: 20px 5px;
+    }
+
+    .photocontact a{
+        text-decoration: none;
+        color: #2b2a2a;
+    }
+
+    .photocontactdes{
+        display: flex;
+    }
+
+    .photocontactdes h3{
+        display: flex;
+        align-items: center;
+    }
+
+    .contact2{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+    }
+
+    .contact2 form input{
+        margin: 20px 10px;
+        font-size: 20px;
+        border-radius: 7px;
+        padding: 8px;
+
+    }
+
+    .inputsumbit{
+        background-color: #7f4f24;
+        color: white;
+        width: 100px;
+        border: none;
+        cursor: pointer;
+    }
+
+    textarea{
+        margin: 20px 10px ;
+    }
+    .contact2 h3{
+        font-size: 25px;
+        margin: 20px 10px;
+    }
+
+
+}
+
