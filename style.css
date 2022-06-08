@@ -127,7 +127,7 @@ li{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    filter: brightness(80%);
+    filter: brightness(90%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 93%);
     
     
@@ -566,7 +566,7 @@ textarea{
         text-align: center;
         width: fit-content;
         color: white;
-        font-size: 2rem;
+        font-size: 1.7rem;
         padding-right: 30px;
     }
 
@@ -575,7 +575,7 @@ textarea{
         
         width: fit-content;
         color: rgb(246, 244, 244);
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         padding-right: 30px;
     }
 
@@ -583,7 +583,7 @@ textarea{
     .button-contact{
         background-color: #a4ac86;
         border-radius: 10px;
-        width: 145px;
+        width: 125px;
          margin: 0px 30px;
     }
 
