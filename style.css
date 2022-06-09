@@ -80,7 +80,7 @@ li{
     transition: 0.7s;
     text-decoration: none;
     color: #edede9 ;
-    font-size: 18px;
+    font-size: 23px;
 }
 
 .nav-link:hover  {
@@ -118,7 +118,9 @@ li{
 }
 
 
-
+.justcoloro{
+    background-color: black;
+}
 
 .backgrondimg{
     background-image: url(תמונות/תמונת\ רקע.jpg);
@@ -153,7 +155,7 @@ li{
     color: rgb(246, 244, 244);
     font-size: 30px;
     margin-block-end: 20px;
-    margin-block-start: 20px;
+    
 }
 
 
@@ -163,11 +165,12 @@ li{
     padding: 8px;
     background-color: #a4ac86;
     border-radius: 10px;
-    width: 190px;
+    width: 300px;
+    height: 70px;
     max-width: 1000px;
 }
 .button-contact a{
-    font-size: 25px;
+    font-size: 35px;
     
 }
 
@@ -201,7 +204,7 @@ li{
 
 .qwlte ul li h4{
     padding-block-start: 40px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
@@ -499,7 +502,26 @@ textarea{
 }
 
 
+footer{
+    background-color: black;
+    color: white;
+    padding-block-start:  20px; ;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
 
+footer div p{
+    font-size: 20px;
+  
+   
+}
+
+footer div h3{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
 
 
 
@@ -507,6 +529,11 @@ textarea{
 
 
 @media(max-width:1008px){
+
+    #logoicon{
+        width: 170px;
+        height: 50px;
+    }
 
     .iconsintheheder{
         display: block;
@@ -554,6 +581,8 @@ textarea{
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        filter: brightness(83%);
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
     }
     
     .themaxwight{
@@ -572,9 +601,8 @@ textarea{
 
     .backgrondimg h3{
         background-color: rgba(0,0,8, 0.02);
-        
         width: fit-content;
-        color: rgb(246, 244, 244);
+        color: rgb(255, 255, 255);
         font-size: 1.2rem;
         padding-right: 30px;
     }
@@ -583,18 +611,29 @@ textarea{
     .button-contact{
         background-color: #a4ac86;
         border-radius: 10px;
-        width: 125px;
+        width: 155px;
+        height: 50px;
          margin: 0px 30px;
     }
 
     .button-contact a{
-        font-size: 1rem;
+        font-size: 20px;
     }
 
     .qwlte h1{
         margin: 30px;
         font-size: 25px;
     }
+
+    .qwlte ul li img{
+        margin: 30px;
+    }
+    
+    .qwlte ul li h4{
+        padding-block-start: 45px;
+        font-size: 20px;
+    }
+    
 
 
     .qwlte h1 span{
