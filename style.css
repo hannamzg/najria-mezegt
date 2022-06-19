@@ -523,10 +523,125 @@ footer div h3{
     color: white;
 }
 
+footer div a{
+    text-decoration: none;
+}
+
+
+.titel_mtbah h2{
+    color: #7f4f24;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titel_mtbah div{
+    
+    border-bottom: 4px solid #7f4f24;
+    width: 260px;
+    margin: 0 auto;
+    margin-block-end: 40px;
+}
+
+.mtbh-menu{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr  ;
+    grid-row: row;
+    gap: 10px;
+   
+}
+
+.mtbh-menu > div:nth-child(1) {
+    margin: 0 auto;
+    
+}
+
+.mtbh-menu > div:nth-child(2) {
+    margin: 0 auto;
+}
+
+.mtbh-menu > div:nth-child(3){
+    margin: 0 auto;
+    grid-column:  1 / span 2;
+    
+}
+
+.mtbh-menu > div h3{
+  text-align: center;
+  font-size: 40px;
+  margin-block-end: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .mtbh-menu > div a{
+    text-decoration: none;
+    color: #2b2a2a;
+ }
+
+ #the-main-of-mtbh-just-color{
+    background-color: #cacebd;
+    
+ }
+
+ .the-main-of-mtbh{
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: #cacebd;
+ }
+
+ .the-main-of-mtbh h2{
+    color: #283618;
+    font-weight: bold;
+    font-size: 40px;
+    
+ }
+
+
+
+ .the-mtbh-menu-photo1 h3{
+    margin-block: 20px;
+    color: #283618;
+    font-size: 45px;
+ }
+ .the-mtbh-menu-photo1 p{
+    margin-block: 20px;
+    color: #283618;
+    
+ }
+
+
+ .the-mtbh-menu-photo1{
+    margin-block: 20px;
+    color: #283618;
+    font-size: 25px;
+ }
+
+ .mtbh-menu-photo1{
+    margin-block: 50px;
+    margin-block-end: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+ }
+ 
+ .mtbh-menu-photo1 div img{
+    border-radius: 10px;
+    width: 20vw;
+    height: 35vh;
+    
+ }
 
 
 
 
+
+
+
+
+ 
 
 @media(max-width:1008px){
 
@@ -865,6 +980,71 @@ footer div h3{
         font-size: 25px;
         margin: 20px 10px;
     }
+
+
+    .titel_mtbah h2{
+        font-size: 35px;
+    }
+
+
+    .mtbh-menu > div img{
+    width: 45vw;
+    height: 22vh;
+    }
+    .mtbh-menu > div h3{
+    font-size: 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+     .the-main-of-mtbh h2{
+        margin-inline-start: 10px;
+        font-size: 25px;
+     }
+    
+     .the-mtbh-menu-photo1 h3{
+        margin-inline-start: 10px;
+        font-size: 25px;
+     }
+
+     .the-mtbh-menu-photo1 p{
+        margin-inline-start: 10px;
+        font-size: 20px;
+     }
+    
+     .the-mtbh-menu-photo1{
+        font-size: 25px;
+     }
+    
+     .mtbh-menu-photo1{
+        gap: 10px;
+     }
+     
+     .mtbh-menu-photo1 div img{
+        border-radius: 10px;
+        width: 30vw;
+        height: 20vh;
+        
+     }
+    
 
 
 }
