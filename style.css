@@ -528,6 +528,12 @@ footer div a{
 }
 
 
+
+main{
+    background-color: aliceblue;
+}
+
+
 .titel_mtbah h2{
     color: #7f4f24;
     text-align: center;
@@ -568,6 +574,8 @@ footer div a{
     grid-column:  1 / span 2;
     
 }
+
+
 
 .mtbh-menu > div h3{
   text-align: center;
@@ -634,6 +642,17 @@ footer div a{
     
  }
 
+
+
+
+ .mainImg{
+    display: flex;
+    justify-content: center;
+ }
+ .mainImg img{
+   width: 500px;
+   height: 300px;
+ }
 
 
 
@@ -995,14 +1014,6 @@ footer div a{
     font-size: 25px;
     }
 
-
-
-
-
-
-
-
-
     
      .the-main-of-mtbh h2{
         margin-inline-start: 10px;
@@ -1034,6 +1045,11 @@ footer div a{
         
      }
     
+     .mainImg img{
+        width: 50vw;
+        height: 20vh;
+      }
+     
 
 
 }
