@@ -529,9 +529,7 @@ footer div a{
 
 
 
-main{
-    background-color: aliceblue;
-}
+
 
 
 .titel_mtbah h2{
@@ -542,52 +540,60 @@ main{
 }
 
 .titel_mtbah div{
-    
     border-bottom: 4px solid #7f4f24;
     width: 260px;
     margin: 0 auto;
     margin-block-end: 40px;
 }
 
-.mtbh-menu{
-    max-width: 1000px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr  ;
-    grid-row: row;
-    gap: 10px;
+
+main{
+    background-color: gainsboro;
+}
+.imgs-menu-in-mtbh{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+
+.imgs-menu-in-mtbh img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    border: solid #283618 0.5px;
+
+}   
+
+.imgs-menu-in-mtbh div h3{
+    font-size: 40px;
+    text-align: center;
+    margin-block-end: 10px;
+}
+
+
+#imgs-menu-in-mtbh-alon{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    justify-content: center;
+    margin-block-start: 50px;
+}
+
+#imgs-menu-in-mtbh-alon{
+    font-size: 40px;
+}
+#imgs-menu-in-mtbh-img-alon{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    border: solid #283618 0.5px;
+
    
 }
 
-.mtbh-menu > div:nth-child(1) {
-    margin: 0 auto;
-    
-}
 
-.mtbh-menu > div:nth-child(2) {
-    margin: 0 auto;
-}
-
-.mtbh-menu > div:nth-child(3){
-    margin: 0 auto;
-    grid-column:  1 / span 2;
-    
-}
-
-
-
-.mtbh-menu > div h3{
-  text-align: center;
-  font-size: 40px;
-  margin-block-end: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- }
-
- .mtbh-menu > div a{
-    text-decoration: none;
-    color: #2b2a2a;
- }
 
  #the-main-of-mtbh-just-color{
     background-color: #cacebd;
@@ -1050,6 +1056,46 @@ main{
         height: 20vh;
       }
      
+
+
+
+
+
+      .imgs-menu-in-mtbh{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .imgs-menu-in-mtbh img{
+        
+        width: 160px;
+        height: 130px;
+      
+    
+    }   
+    
+    #imgs-menu-in-mtbh-alon{
+        margin-block-start: 20px;
+    }
+    
+    #imgs-menu-in-mtbh-img-alon{
+        width: 160px;
+        height: 130px;
+    }
+
+
+    .imgs-menu-in-mtbh div h3{
+        font-size: 25px;
+        margin-block-end: 10px;
+    }
+    
+    
+    #imgs-menu-in-mtbh-alon{
+        margin-block-start: 20px;
+    }
+    
+    #imgs-menu-in-mtbh-alon{
+        font-size: 25px;
 
 
 }
