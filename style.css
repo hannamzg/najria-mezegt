@@ -37,6 +37,7 @@ a68a64
 }
 
 header{
+    
     margin: auto;
     max-width: 1000px;
     background-color: rgb(#7f4f24);
@@ -51,7 +52,8 @@ li{
 }
 
 .navbar{
-    min-height: 70px;
+    
+    min-height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,10 +63,11 @@ li{
 }
 
 .nav-menu{
+    
     display: flex;
     justify-content: center;
     align-items: center;
-   gap: 60px;
+    gap: 60px;
 }
 
 .nav-branding{
@@ -531,144 +534,186 @@ footer div a{
 
 
 
+ .titel-of-main-mtbh{
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
 
-.titel_mtbah h2{
-    color: #7f4f24;
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.titel_mtbah div{
-    border-bottom: 4px solid #7f4f24;
-    width: 260px;
+ .titel-of-main-mtbh h1{
     margin: 0 auto;
-    margin-block-end: 40px;
-}
+    font-size: 50px;
+    color: #7f4f24;
+    margin-block-end: 10px;
+}  
+
+  .titel-of-main-mtbh div{
+    border: 1px #7f4f24 solid;
+    width: 50%;
+    margin:  0 auto;
+} 
+
 
 
 main{
-    background-color: gainsboro;
+    margin: 0 auto;
 }
-.imgs-menu-in-mtbh{
+
+.conter-photo-mtbh{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.item-mtbh{
+    padding: 10px 0;
+    border: 1px solid #e9e7e7;
+}
+
+.photo-style-mtbh{
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    max-height: 150px;
+    width: auto;
+    margin: 0 auto;
 }
 
 
 
-.imgs-menu-in-mtbh img{
-    width: 400px;
-    height: 300px;
-    border-radius: 15px;
-    border: solid #283618 0.5px;
 
-}   
 
-.imgs-menu-in-mtbh div h3{
-    font-size: 40px;
-    text-align: center;
-    margin-block-end: 10px;
+
+
+
+
+@media (max-width: 1000px ) and (min-width:600px) {
+
+    .backgrondimg h1{
+        background-color: rgba(0,0,8, 0.02);
+        text-align: center;
+        width: fit-content;
+        color: white;
+        font-size: 2.7rem;
+        padding-right: 30px;
+    }
+
+    .backgrondimg h3{
+        background-color: rgba(0,0,8, 0.02);
+        width: fit-content;
+        color: rgb(255, 255, 255);
+        font-size: 1.7rem;
+        padding-right: 30px;
+    }
+
+
+    .button-contact{
+        background-color: #a4ac86;
+        border-radius: 10px;
+        width: 155px;
+        height: 50px;
+         margin: 0px 30px;
+    }
+
+    .button-contact a{
+        font-size: 20px;
+    }
+
+    
+    .iconsintheheder{
+        display: block;
+    }
+
+    .hamburger{
+            display: block;
+           
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background: linear-gradient(240deg,#a68a64,#a4ac86,#a68a64);    
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+
+    .titel-of-main-mtbh h1{
+       
+        font-size: 40px;
+       
+    }  
+    
+    .conter-photo-mtbh{
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    
+    .item-mtbh{
+        padding: 5px 0;
+        border: 1px solid #e9e7e7;
+    }
+    
+    .photo-style-mtbh{
+        display: flex;
+        max-height: 150px;
+       
+    }
+  
+
+
+
+
+
+
 }
 
 
-#imgs-menu-in-mtbh-alon{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-    justify-content: center;
-    margin-block-start: 50px;
-}
 
-#imgs-menu-in-mtbh-alon{
-    font-size: 40px;
-}
-#imgs-menu-in-mtbh-img-alon{
-    width: 400px;
-    height: 300px;
-    border-radius: 15px;
-    border: solid #283618 0.5px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+@media(max-width: 600px)  {
+    
 
    
-}
-
-
-
- #the-main-of-mtbh-just-color{
-    background-color: #cacebd;
-    
- }
-
- .the-main-of-mtbh{
-    max-width: 1000px;
-    margin: 30px auto;
-    background-color: #cacebd;
- }
-
- .the-main-of-mtbh h2{
-    color: #283618;
-    font-weight: bold;
-    font-size: 40px;
-    
- }
-
-
-
- .the-mtbh-menu-photo1 h3{
-    margin-block: 20px;
-    color: #283618;
-    font-size: 45px;
- }
- .the-mtbh-menu-photo1 p{
-    margin-block: 20px;
-    color: #283618;
-    
- }
-
-
- .the-mtbh-menu-photo1{
-    margin-block: 20px;
-    color: #283618;
-    font-size: 25px;
- }
-
- .mtbh-menu-photo1{
-    margin-block: 50px;
-    margin-block-end: 100px;
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
- }
- 
- .mtbh-menu-photo1 div img{
-    border-radius: 10px;
-    width: 20vw;
-    height: 35vh;
-    
- }
-
-
-
-
- .mainImg{
-    display: flex;
-    justify-content: center;
- }
- .mainImg img{
-   width: 500px;
-   height: 300px;
- }
-
-
-
-
-
-
-
- 
-
-@media(max-width:1008px){
 
     #logoicon{
         width: 170px;
@@ -1007,96 +1052,47 @@ main{
     }
 
 
-    .titel_mtbah h2{
-        font-size: 35px;
-    }
 
-
-    .mtbh-menu > div img{
-    width: 35vw;
-    height: 150px;
-    }
-    .mtbh-menu > div h3{
-    font-size: 25px;
-    }
-
+    .titel-of-main-mtbh h1{
+       
+        font-size: 30px;
+       
+    } 
     
-     .the-main-of-mtbh h2{
-        margin-inline-start: 10px;
-        font-size: 25px;
-     }
+
+    .conter-photo-mtbh{
+        grid-template-columns: 1fr 1fr;
     
-     .the-mtbh-menu-photo1 h3{
-        margin-inline-start: 10px;
-        font-size: 25px;
-     }
-
-     .the-mtbh-menu-photo1 p{
-        margin-inline-start: 10px;
-        font-size: 20px;
-     }
-    
-     .the-mtbh-menu-photo1{
-        font-size: 25px;
-     }
-    
-     .mtbh-menu-photo1{
-        gap: 10px;
-     }
-     
-     .mtbh-menu-photo1 div img{
-        border-radius: 10px;
-        width: 30vw;
-        height: 120px;
-        
-     }
-    
-     .mainImg img{
-        width: 50vw;
-        height: 20vh;
-      }
-     
-
-
-
-
-
-      .imgs-menu-in-mtbh{
-        flex-wrap: wrap;
-        gap: 20px;
     }
     
-    .imgs-menu-in-mtbh img{
-        
-        width: 160px;
-        height: 130px;
-      
-    
-    }   
-    
-    #imgs-menu-in-mtbh-alon{
-        margin-block-start: 20px;
+    .item-mtbh{
+        padding: 5px 0;
+        border: 1px solid #e9e7e7;
     }
     
-    #imgs-menu-in-mtbh-img-alon{
-        width: 160px;
-        height: 130px;
+    .photo-style-mtbh{
+        display: flex;
+        max-height: 100px;
+       
     }
 
-
-    .imgs-menu-in-mtbh div h3{
-        font-size: 25px;
-        margin-block-end: 10px;
-    }
     
-    
-    #imgs-menu-in-mtbh-alon{
-        margin-block-start: 20px;
-    }
-    
-    #imgs-menu-in-mtbh-alon{
-        font-size: 25px;
-
 
 }
 
+
+
+
+@media (max-width:400px){
+    .conter-photo-mtbh{
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+    .photo-style-mtbh{
+        display: flex;
+        max-height: 90px;
+       
+    }
+
+}

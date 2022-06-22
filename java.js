@@ -19,23 +19,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 
 
 
- let mainImg = document.getElementById('mainImgg')
-let imgs = document.getElementsByClassName('imgs'),
-t=0;
 
-
-function play (){
-
-    t=t+1;
-
-    if (t===imgs.length) {
-        t=0;        
-    }
-
-    mainImg.src = imgs[t].src;
-}
-
-setInterval(play,1500) ;
 
 
 
